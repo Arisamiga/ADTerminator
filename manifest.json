@@ -1,0 +1,23 @@
+{    
+    "name": "ADTerminator",
+    "version": "0.2",
+    "description": "Removes all Ads on a Google Search",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "./js/background.js"
+    },
+    "permissions": ["storage", "webNavigation", "scripting"],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "./Logo.png"
+        }
+    },
+    "icons": {
+        "128": "./Logo.png"
+    }
+}
