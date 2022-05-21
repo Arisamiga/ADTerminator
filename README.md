@@ -4,6 +4,12 @@
 
 ### Chrome extension to remove all Ads on a Google Search.
 
+ <a href="https://github.com/Arisamiga/ADTerminator/issues">
+   <img alt="Issues" src="https://img.shields.io/github/issues/Arisamiga/Discord-Giveaway-Bot?color=0088ff" />
+  </a>
+  
+[![CodeFactor](https://www.codefactor.io/repository/github/arisamiga/adterminator/badge?s=cfb5c4373d1e550b380e64f78f41789c303b2928)](https://www.codefactor.io/repository/github/arisamiga/adterminator)
+
 
 ## Installation
 ```
