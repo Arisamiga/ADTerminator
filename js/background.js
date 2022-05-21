@@ -25,10 +25,7 @@ async function newpage() {
         chrome.storage.sync.set({removed: (await chrome.storage.sync.get("removed")).removed + 1})
       } catch (err) {
         // Tried to delete element that doesnt exist
-        // console.log(err)
       }
-      // console.log("removed: " + i)
     }
   }
-  // console.log(await chrome.storage.sync.get("removed"))
 }
