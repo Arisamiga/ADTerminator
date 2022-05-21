@@ -1,6 +1,6 @@
 {    
     "name": "ADTerminator",
-    "version": "0.2",
+    "version": "1.0.0",
     "description": "Removes all Ads on a Google Search",
     "manifest_version": 3,
     "background": {
