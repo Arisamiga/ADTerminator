@@ -26,6 +26,12 @@
 
 ADTerminator should now be displayed as an installed extension on your extensions.
 ```
+
+## Installation (Firefox)
+### You can download the extension by going to firefox addons Website 
+
+https://addons.mozilla.org/en-GB/firefox/addon/adterminator/
+
 ### Pin the extension to your tab:
 ```
 To Pin the extension on your tab to see the panel
