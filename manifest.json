@@ -1,6 +1,6 @@
 {
     "name": "ADTerminator",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "description": "Removes all Ads on a Google Search",
     "manifest_version": 2,
     "background": {
@@ -13,10 +13,7 @@
         }
     ],
     "permissions": [
-        "storage", 
-        "webNavigation", 
-        "activeTab",
-        "tabs"
+        "storage"
     ],
     "browser_action": {
         "default_popup": "popup.html",
