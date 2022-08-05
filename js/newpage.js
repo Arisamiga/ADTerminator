@@ -10,6 +10,12 @@ async function rmads() {
         topads[0].remove();
         browser.storage.local.set({
           removed: (await chrome.storage.local.get("removed")).removed + 1,
+          removed_side: (await chrome.storage.local.get("removed_side"))
+            .removed_side,
+          removed_top:
+            (await chrome.storage.local.get("removed_top")).removed_top + 1,
+          removed_normal: (await chrome.storage.local.get("removed_normal"))
+            .removed_normal,
         });
       } catch (err) {
         // Tried to delete element that doesnt exist
@@ -20,6 +26,13 @@ async function rmads() {
         ads[0].remove();
         browser.storage.local.set({
           removed: (await chrome.storage.local.get("removed")).removed + 1,
+          removed_side: (await chrome.storage.local.get("removed_side"))
+            .removed_side,
+          removed_top: (await chrome.storage.local.get("removed_top"))
+            .removed_top,
+          removed_normal:
+            (await chrome.storage.local.get("removed_normal")).removed_normal +
+            1,
         });
       } catch (err) {
         // Tried to delete element that doesnt exist
@@ -30,6 +43,12 @@ async function rmads() {
         sideads[0].remove();
         browser.storage.local.set({
           removed: (await chrome.storage.local.get("removed")).removed + 1,
+          removed_side:
+            (await chrome.storage.local.get("removed_side")).removed_side + 1,
+          removed_top: (await chrome.storage.local.get("removed_top"))
+            .removed_top,
+          removed_normal: (await chrome.storage.local.get("removed_normal"))
+            .removed_normal,
         });
       } catch (err) {
         // Tried to delete element that doesnt exist

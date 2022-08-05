@@ -11,6 +11,9 @@
             #counter {
                 color: white;
             }
+            #types {
+                margin-left: 10px;
+            }
             .title {
                 display: block;
                 font-size: 2em;
@@ -21,12 +24,52 @@
                 font-weight: bold;
                 margin-bottom: 14%;
             }
+            
+            .tooltip {
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dotted white;
+            }
+
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 176px;
+                background-color: #602f2f;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                margin-top: 7px;
+                padding: 3px 0;
+                padding-bottom: 1px;
+                position: absolute;
+                z-index: 1;
+                display: none;
+
+                /* Position the tooltip */
+                position: absolute;
+                z-index: 1;
+            }
+
+            .tooltip:hover .tooltiptext {
+                display: block;
+                visibility: visible;
+            }
         </style>
     </head>
-    <body>
-        <a href="https://github.com/Arisamiga/ADTerminator"><img src="Logo.png" width="20px"></a>
-        <div class="title">ADTerminator</div>
-        <div class="description">Removes all Ads on a Google Search</div>
-        <h3>Ads Removed: <div id="counter"></div></h3>
-    </body>
+  <body>
+    <a href="https://github.com/Arisamiga/ADTerminator"
+      ><img src="Logo.png" width="20px"
+    /></a>
+    <div class="title">ADTerminator</div>
+    <div class="description">Removes all Ads on a Google Search</div>
+    <h3>
+      Ads Removed:
+      <br>
+      <div class="tooltip">
+        <div id="counter"></div>
+        <span class="tooltiptext"><div id="types"></div></span>
+      </div>
+    </h3>
+  </body>
+</html>
 </html>
