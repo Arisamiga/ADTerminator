@@ -42,4 +42,4 @@ To Pin the extension on your tab to see the panel
 
 ### Suggest search engines that you want me to remove ads from to add more functionality to the extension
 
-### If you are having troubles with the bot i recommend opening a issue.
+### If you are having troubles i recommend opening a issue.
